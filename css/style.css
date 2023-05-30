@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Jost:wght@400;500&family=Manrope:wght@500&family=Montserrat:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.promo{
+    width: 100%;
+}
+body{
+    font-family: 'Jost';
+    background: #F2F2F2;
+}
+.title{
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.projects_p{
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.promo header{
+    max-width: 1111px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 64px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.promo header .header_logo{
+    display: flex;
+    column-gap: 20px;
+}
+.promo header nav ul{
+    display: flex;
+    column-gap: 42px;
+    color: #333136;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.header_logo_img{
+    background: conic-gradient( #E7816B 180deg, rgba(231, 129, 107, 0.0001) 360deg);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.promo main{
+    position: relative;
+}
+.promo main .promo_content{
+    max-width: 1111px;
+    background-color: rgba(231, 129, 107, 1);
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-bottom: 160px;
+}
+.promo main .promo_content .promo_info{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-left: 95px;
+}
+.promo main .promo_content .promo_info .promo_info_left{
+    z-index: 1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.promo main .promo_content .promo_info .promo_info_left h1{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.promo main .promo_content .promo_info .promo_info_left p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.promo main .promo_content .promo_info .promo_info_left button{
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    color: #333136;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 17px 25px;
+    cursor: pointer;
+}
+.promo main .promo_content .promo_info .promo_info_right{
+    display: flex;
+    margin-left: 100px;
+}
+
+.promo main .promo_content .promo_info .promo_info_right .tablet{
+    display: none;
+}
+
+.promo main .promo_content .promo_info .promo_background{
+    background: linear-gradient(rgba(93, 2, 2, 0.2), rgba(93, 2, 2, 0));
+    width: 640px;
+    height: 640px; 
+    position: absolute;
+    border-radius: 50%;
+    right: 0;
+    top: 0;
+}
+.promo main .background{
+    position: absolute;
+    top: 320px;
+    max-width: 1006px;
+    height: 594px;
+    background: #F1F3F5;
+    opacity: 0.5;
+    border-radius: 297px 297px 297px 0px;
+    z-index: -1;
+}
+.promo main .design_projects{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 160px;
+}
+.promo main .design_projects .projects{
+    max-width: 1111px;
+    height: 640px;
+    display: flex;
+    column-gap: 30px;
+}
+.promo main .design_projects .projects .projects_p{
+    cursor: pointer;
+}
+.promo main .design_projects .projects .projects_left{
+    background-image: url(../img/background/web_design.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 541px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promo main .design_projects .projects .projects_left .web_project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.promo main .design_projects .projects .projects_right .project_top{
+    background-image: url(../img/background/app_design.png);
+    background-repeat: no-repeat;
+    width: 541px;
+    height: 308px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.promo main .design_projects .projects .projects_right .project_top .app_project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.promo main .design_projects .projects .projects_right .project_bottom{
+    background-image: url(../img/background/graphic_design.png);
+    background-repeat: no-repeat;
+    width: 541px;
+    height: 308px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promo main .design_projects .projects .projects_right .project_bottom .graphic_project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;  
+}
+.promo main .working{
+    margin: 0 auto;
+    max-width: 1110px;
+    display: flex;
+    margin-bottom: 160px;
+    justify-content: space-between;
+}
+.promo main .working .working_card div{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.promo main .working .working_card h5{
+    color: #333136;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+}
+.promo main .working .working_card p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333136;
+    max-width: 350px;
+}
+.promo main .about{
+    position: relative;
+    transform: translateY(70px)
+}
+.promo main .about .about_project{
+    margin: 0 auto;
+    max-width: 1111px;
+    padding: 72px 95px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background: #E7816B;
+    border-radius: 15px;
+    background-image: url(../img/about-bg.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center right;
+}
+.promo main .about .about_project h5{
+    max-width: 268px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+.promo main .about .about_project p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    max-width: 459px;
+}
+.promo main .about .about_project button{
+    padding: 17px 19px;
+    color: #333136;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 15px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.promo footer{
+    width: 100%;
+    background: #1D1C1E;
+    padding-bottom: 72px;
+    padding-top: 70px;
+}
+footer header{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 40px;
+}
+footer header .footer_logo{
+    display: flex;
+    column-gap: 15px;
+}
+footer header .footer_logo .footer_logo_img{
+    background: conic-gradient( #E7816B 180deg, rgba(231, 129, 107, 0.0001) 360deg);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+footer header nav ul li{
+    color: #FFFFFF;
+}
+footer .footer_address{
+    max-width: 1111px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer_address .footer_left{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 230px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    mix-blend-mode: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+footer .footer_address .footer_left .address h6{
+    font-weight: 500;
+    font-size: 16px;
+}
+footer .footer_address .footer_left .address p{
+    font-size: 16px;
+}
+footer .footer_address .footer_left .contact{
+    font-weight: 500;
+}
+footer .footer_address .footer_left .contact h6{
+    font-weight: 500; 
+    font-size: 16px;
+}
+footer .footer_address ul{
+    display: flex;
+    column-gap: 15px;
+    align-items: flex-end;
+}
+
+@media only screen and (max-width: 1150px){
+    .promo .header1{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    main{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .promo main .design_projects{
+        margin-bottom: 800px;
+    }
+
+    .promo main .design_projects .projects{
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 25px;
+    }
+
+    .promo main .working{
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 15px;
+        row-gap: 50px;
+    }
+
+    footer{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .promo main .promo_content .promo_info{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .promo main .promo_content{
+        margin-bottom: 120px;
+    }
+
+    .promo main .promo_content .promo_info{
+        max-width: 689px;
+        justify-content: center;
+        text-align: center;
+        padding-top: 45px;
+        padding-left: 0;
+        overflow: hidden;
+    }
+
+    .promo main .promo_content .promo_info .promo_info_left{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+
+    .promo main .promo_content .promo_info .promo_info_left h1{
+        margin-bottom: 25px;
+    }
+
+    .promo main .promo_content .promo_info .promo_info_left p{
+        margin-bottom: 20px;
+    }
+
+    .promo main .promo_content .promo_info .promo_info_left button{
+        width: max-content;
+    }
+
+    .promo main .promo_content .promo_info .promo_info_right{
+        margin-left: 0;
+    }
+    
+    .promo main .promo_content .promo_info .promo_info_right .desktop{
+        display: none;
+    }
+
+    .promo main .promo_content .promo_info .promo_info_right .tablet{
+        display: block;
+    }
+
+    .promo main .promo_content .promo_info .promo_background{
+        top: 12%;
+        right: -20%;
+    }
+
+    .promo main .design_projects{
+        margin-bottom: 120px;
+    }
+
+    .promo main .design_projects .projects{
+        max-width: 689px;
+    }
+
+    .promo main .design_projects .projects .projects_left{
+        background-size: cover;
+        width: 689px;
+        height: auto;
+        padding-top: 53px;
+        padding-bottom: 53px;
+        border-radius: 15px;
+    }
+
+    .promo main .design_projects .projects .projects_right .project_top{
+        background-size: cover;
+        width: 689px;
+        height: auto;
+        padding-top: 53px;
+        padding-bottom: 53px;
+        border-radius: 15px;
+    }
+
+    .promo main .design_projects .projects .projects_right .project_bottom{
+        background-size: cover;
+        width: 689px;
+        height: auto;
+        padding-top: 53px;
+        padding-bottom: 53px;
+        border-radius: 15px;
+    }
+
+    .promo main .working{
+        row-gap: 0;
+        margin-bottom: 0;
+    }
+
+    .promo main .working .working_card {
+        width: 100%;
+        display: flex;
+        column-gap: 48px;
+    }
+
+    .promo main .working .working_card div{
+        margin-bottom: 32px;
+    }
+
+    .promo main .working .working_card .working_card_inner{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .promo main .working .working_card .working_card_inner h5{
+        width: 100%;
+        text-align: start;
+        margin-bottom: 16px;
+    }
+
+    .promo main .working .working_card .working_card_inner p{
+        max-width: 439px;
+        text-align: start; 
+    }
+
+    .promo main .about .about_project{
+        justify-content: center;
+        padding-top: 57px;
+        padding-bottom: 57px;
+        background-size: cover;
+        background-position: 30% center;
+    }
+
+    .promo main .about .about_project .about_left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .promo main .about .about_project .about_left p{
+        max-width: 573px;
+    }
+
+    footer .footer_address .footer_left{
+        column-gap: 70px;
+    }
+
+}
